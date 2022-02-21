@@ -1,4 +1,4 @@
-import { petObject } from "../support";
+import { petObject } from "../../support";
 const request = require("supertest");
 
 export default async (

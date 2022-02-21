@@ -2,6 +2,7 @@ import postPet from "../modules/postPet.js";
 import updatePet from "../modules/updatePet.js";
 import deletePet from "../modules/deletePet.js";
 
+export default () => {
 let petID;
 let petName;
 describe("Post /pet, Get /Pet/id", () => {
@@ -40,3 +41,4 @@ describe("Post /pet, Get /Pet/id", () => {
     expect(deletePetRes.response?.body?.type).toEqual('unknown');
   });
 });
+}
