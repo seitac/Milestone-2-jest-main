@@ -5,6 +5,7 @@ export default async (
   expectedStatus = 200,
   params = { id: 232567, name: "Dalmata" }
 ) => {
+  //COMMENT I would extract repetitive definitions to a utils file
   const baseUrl = "https://petstore.swagger.io/v2";
   const endpoint = "/pet";
 
